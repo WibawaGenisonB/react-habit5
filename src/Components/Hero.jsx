@@ -1,11 +1,12 @@
-import airbnbIcon from ""
+import heroIcon from "../assets/photo-grid.png"
+import "./Hero.css"
 
-function Navbar() {
+function Hero() {
   return (
-    <nav>
-      <div></div>
-    </nav>
+    <div>
+      <img src={heroIcon} className="hero--img" />
+    </div>
   )
 }
 
-export default Navbar
+export default Hero

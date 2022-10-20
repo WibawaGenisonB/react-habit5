@@ -4,7 +4,7 @@ import "./Navbar.css"
 function Navbar() {
   return (
     <nav>
-      <img src={airbnbIcon} />
+      <img src={airbnbIcon} className="nav--img" />
     </nav>
   )
 }
